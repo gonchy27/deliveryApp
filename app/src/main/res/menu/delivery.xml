@@ -2,16 +2,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/menu_search"
+        android:icon="?android:attr/actionModeWebSearchDrawable"
         android:orderInCategory="100"
+        android:title="Search"
+        app:showAsAction="always" />
+    <item
+        android:orderInCategory="101"
         android:title="@string/action_settings"
         app:showAsAction="never" />
     <item
-        android:id="@+id/menu_dark"
-        android:orderInCategory="101"
+        android:orderInCategory="102"
         android:title="Dark Mode" />
     <item
         android:id="@+id/menu_logout"
-        android:orderInCategory="102"
+        android:orderInCategory="103"
         android:title="Logout" />
 </menu>

@@ -1,11 +1,14 @@
 package com.dreamsoft.deliveryapp.ui
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import com.dreamsoft.DeliveryActivity
+import com.dreamsoft.deliveryapp.MainActivity
 import com.dreamsoft.deliveryapp.R
 import com.dreamsoft.deliveryapp.databinding.FragmentStartBinding
 import kotlinx.android.synthetic.main.fragment_start.*
@@ -27,7 +30,9 @@ class StartFragment : Fragment() {
         bindingStart = FragmentStartBinding.bind(view)
 
         bindingStart.btnStart.setOnClickListener {
-            Toast.makeText(context, "Trabajando",Toast.LENGTH_SHORT).show()
+            var intent = Intent(context,DeliveryActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
+            startActivity(intent)
         }
     }
 
