@@ -43,5 +43,6 @@ class StartFragment : Fragment() {
 * seguir investigando c-29-11-20,
 * corregir el splash screen c-02-01-21
 * ver como hacer la app
-*
+*Ya se nos ocurrio algo!, jeje añadir imagenes al momento de presionar las opciones del navigation drawer c-12-01-21
+* quizas deba ser con 000webhost, ir pensando, hasta mientras crear los demas fragments e ir agregando al navigation
 * */

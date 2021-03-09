@@ -41,4 +41,7 @@ class HomeFragment : Fragment() {
 
 /*
 * corregir cuando se pueda c-07-01-21
+* seguir investigando sobre el cardview c-14-01-21
+* Creo que es necesario ver los tutoriales c-16-01-21, por ahota van bien
+* Ya se modifico un poco ahira ver los tutoriales c-18-01-21
 * */
